@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+  <form onsubmit="return false">
+    <div>
+      <h1>TellFortuner</h1>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Nama</label>
+      <input type="text" class="form-control" id="nama" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">jobtitle</label>
+      <input type="text" class="form-control" id="jobtitle">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Lokasi Kerja</label>
+      <input type="text" class="form-control" id="lokasi">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Anak</label>
+      <input type="number" class="form-control" id="anak">
+    </div>
+    
+    <button type="submit" id="Idsubmit" class="btn btn-primary">Submit</button>
+  </form>
+
+  <div>
+    <p id="tampil"></p>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>  
+<script src="tellFortune.js"></script>
+</body>
+</html>
