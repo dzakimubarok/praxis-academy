@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "ramda": "^0.27.1",
+    "underscore": "^1.12.0"
+  },
+  "name": "jack",
+  "version": "1.0.0",
+  "description": "gigitnore",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jack",
+  "license": "ISC"
+}
