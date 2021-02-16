@@ -15,7 +15,7 @@ version: (1.0.0)
 description: gigitnore
 entry point: (index.js)
 test command:
-git repository:
+git repository: 
 keywords:
 author: jack
 license: (ISC)
